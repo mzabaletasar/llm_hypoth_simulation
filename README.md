@@ -12,22 +12,16 @@ This repository contains **`main.py`**, a script designed to simulate tabular da
 
 ## Requirements
 
-The script requires Python 3.8+ and the following Python packages:  
-(*Replace the list below with actual dependencies. I recommend generating a `requirements.txt` file using `pip freeze` if needed.*)
+The script requiresthe following Python packages:  
 
-- `openai`
+- `argparse`
+- `json`
+- `os`
 - `pandas`
-- `numpy`
-- `python-dotenv`  
-(*Add more as applicable.*)
+- `groq`
+- `openai`
+- `tqdm`
 
-### Installing Dependencies
-
-To install the required dependencies, you can create a `requirements.txt` file and use:
-
-```bash
-pip install -r requirements.txt
-```
 
 ## How to Use
 1. Clone the repository:
@@ -35,7 +29,7 @@ pip install -r requirements.txt
 git clone https://github.com/mzabaletasar/llm_hypoth_simulation.git
 cd llm_hypoth_simulation
 ```
-2. Set up your .env file with the necessary API key(s) for OpenAI, Replicate, or Groq. Example:
+2. Set up your `.env` file with the necessary API key(s) for OpenAI, Replicate, or Groq. Example:
 
 ```makefile
 OPENAI_API_KEY=your_openai_api_key
