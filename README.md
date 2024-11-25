@@ -46,7 +46,7 @@ python main.py --run_mode hypothesis --hypothesis "Your hypothesis" --entities e
 
 * Feature Mode:
 ```bash
-python main.py --run_mode feature --hypothesis "Your hypothesis" --entities entity1,entity2,entity3
+python main.py --run_mode feature --features "Your features" --entities entity1,entity2,entity3
 ```
 
 
